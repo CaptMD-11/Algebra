@@ -37,21 +37,38 @@
 \maketitle
 \date
 
-\begin{enumerate}
-    \item A ring $R$ is a set that is closed under two binary operations, $+$ and $\times$. The following conditions must also be satisfied: 
+\begin{section}{Section 16.1 - Rings}
     \begin{enumerate}
-        \item Additive commutativity. 
-        \item Additive associativity. 
-        \item Additive identity. 
-        \item Additive inverse. 
-        \item Multiplicative associativity. 
-        \item Multiplicative distributivity 1 $\&$ 2. 
+        \item A ring $R$ is a set that is closed under two binary operations, $+$ and $\times$. The following conditions must also be satisfied: 
+        \begin{enumerate}
+            \item Additive commutativity. 
+            \item Additive associativity. 
+            \item Additive identity. 
+            \item Additive inverse. 
+            \item Multiplicative associativity. 
+            \item Multiplicative distributivity 1 $\&$ 2. 
+        \end{enumerate}
+        \item A ring with unity (or with identity) is a ring $R$ that has multiplicative identity. 
+        \item A commutative ring is a ring $R$ that has multiplicative commutativity. 
+        \item An integral domain is a commutative ring $R$ with identity such that for all $a,b \in R$ $ab=0$ implies $a=0$ or $b=0$. 
+        \item A division ring is a ring $R$ that has multiplicative inverse for all nonzero $a \in R$. 
+        \item A zero divisor of a commutative ring $R$ is an $a \in R$ ($a \neq 0$) such that there exists a nonzero $b \in R$ such that $ab=0$. 
+        \item The ring of quaternions is the set $\mathbb{H} = \{a + b\hat{i} + c\hat{j} + d\hat{k} \mid a,b,c,d \in \mathbb{R}\}$, where $1 = \begin{pmatrix}
+            1 & 0 \\
+            0 & 1
+        \end{pmatrix}, \hat{i} = \begin{pmatrix}
+            0 & 1 \\
+            -1 & 0
+        \end{pmatrix}, \hat{j} = \begin{pmatrix}
+            0 & i \\
+            i & 0
+        \end{pmatrix}, \hat{k} = \begin{pmatrix}
+            i & 0 \\
+            0 & -i
+        \end{pmatrix}.$
     \end{enumerate}
-    \item A ring with unity (or with identity) is a ring $R$ that has multiplicative identity. 
-    \item A commutative ring is a ring $R$ that has multiplicative commutativity. 
-    \item An integral domain is a commutative ring $R$ with identity such that for all $a,b \in R$ $ab=0$ implies $a=0$ or $b=0$. 
-    \item A division ring is a ring $R$ that has multiplicative inverse for all nonzero $a \in R$. 
-\end{enumerate}
+\end{section}
+
 
 
 \end{document}
