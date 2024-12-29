@@ -1,0 +1,51 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{authblk}
+\usepackage{tkz-euclide}
+\usepackage{tikz}
+\usepackage{changepage}
+\usepackage{lipsum}
+\usepackage{tree-dvips}
+\usepackage{qtree}
+\usepackage[linguistics]{forest}
+\usepackage[hidelinks]{hyperref}
+\usepackage{mathtools}
+\usepackage{blindtext}
+% \usepackage[cal=esstix,frak=euler,scr=boondox,bb= pazo]{mathalfa}
+\usepackage{graphicx}
+\graphicspath{{./images/}}
+\allowdisplaybreaks
+\allowbreak
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheoremstyle{named}{}{}{\itshape}{}{\bfseries}{.}{.5em}{\thmnote{#3's }#1}
+\theoremstyle{named}
+\newtheorem*{namedconjecture}{Distinct Factorizations Conjecture}
+\newtheorem{conjecture}{Conjecture}
+\DeclareMathOperator{\sech}{sech}
+\DeclareMathOperator{\arcsec}{arcsec}
+\newcounter{customDef}
+\renewcommand{\thecustomDef}{\arabic{customDef}}
+\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
+\begin{document}
+\title{Algebra Theorems}
+\author{On Rings, Polynomials, and Fields}
+\date{}
+\maketitle
+\date
+
+\begin{section}{Section 16.2 - Integral Domains and Fields}
+    \begin{enumerate}
+        \item \textbf{Prop. 16.15. Cancellation Law. } Let $D$ be a commutative ring with identity. Then $D$ is an integral domain iff for all nonzero elements $a \in D$ with $ab=ac$, we have $b=c$. 
+        \item \textbf{Theorem 16.16. } Every finite integral domain is a field. 
+        \item \textbf{Lemma 16.18. } Let $R$ be a ring with identity. If 1 has order $n$, then the characteristic of $R$ is $n$. 
+        \item \textbf{Theorem 16.19. } The characteristic of an integral domain is either prime or zero. 
+    \end{enumerate}
+\end{section}
+
+
+
+\end{document}
