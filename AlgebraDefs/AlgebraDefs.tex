@@ -86,6 +86,15 @@
         \item An \textbf{ideal} of a ring $R$ is a subring $I$ such that if $a \in I$ and $r \in R$, then $ar,ra \in I$. 
         \item The \textbf{trivial ideals} of a ring $R$ are the subrings $\{0\}$ and $R$. 
         \item A \textbf{principal ideal} of a commutative ring $R$ (with identity) is an ideal of the form $\langle a \rangle = \{ar \mid r \in R\}$. 
+        \item A \textbf{two-sided ideal} $I$ is a subring of a ring $R$ such that $rI \subset I$ and $Ir \subset I$ for all $r \in R$. 
+        \item A \textbf{one-sided ideal} $I$ is a subring of a ring $R$ is one such that $rI \subset I$ for all $r \in R$ (a \textbf{left ideal}) or $Ir \subset I$ for all $r \in R$ (a \textbf{right ideal}). 
+    \end{enumerate}
+\end{section}
+
+\begin{section}{Section 17.1 - Polynomial Rings}
+    \begin{enumerate}
+        \item A \textbf{polynomial over} $R$ is an expression of the form $f(x = \sum_{i=0}^{n}a_ix^i)$ with \textbf{indeterminate} $x$. Define $a_0,\dots,a_n$ to be the \textbf{coefficients} of $f$ and $a_n$ is the \textbf{leading coefficient} of $f$. A polynomial is \textbf{monic} if its leading coefficient $a_n$ is 1. The \textbf{degree} (write: $\deg f(x) = n$) is the largest nonnegative number for which $a_n \neq 0$. If no such $n$ exists, then $f=0$, the \textbf{zero polynomial} and define the degree of $f=0$ to be $-\infty$. Denote $R[x]$ to be the set of all polynomials with coefficients in a ring $R$. 
+        \item $R[x,y]$ is the \textbf{ring of polynomials in two indeterminates $x,y$ with coefficients in $R$}. $R[x_1,\dots,x_n]$ is the \textbf{ring of polynomials in $n$ indeterminates with coefficients in $R$}. 
     \end{enumerate}
 \end{section}
 
