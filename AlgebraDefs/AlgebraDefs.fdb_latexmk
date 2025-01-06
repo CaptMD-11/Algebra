@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1735913635 "/Users/nydhruva/git/LaTeX/Algebra/AlgebraDefs/AlgebraDefs.tex" "AlgebraDefs.pdf" "AlgebraDefs" 1735913636 0
-  "/Users/nydhruva/git/LaTeX/Algebra/AlgebraDefs/AlgebraDefs.tex" 1735913635 5606 9172657c2b88d9eff13831a6e302e249 ""
+["pdflatex"] 1736143799 "/Users/nydhruva/git/LaTeX/Algebra/AlgebraDefs/AlgebraDefs.tex" "AlgebraDefs.pdf" "AlgebraDefs" 1736143799 0
+  "/Users/nydhruva/git/LaTeX/Algebra/AlgebraDefs/AlgebraDefs.tex" 1736143798 5982 309edb9a2ef1e46625162ac6cc854bf1 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -251,9 +251,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1693530960 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1693530901 7883453 e715a5447c98d5844e9e25d55e00422f ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "AlgebraDefs.aux" 1735913636 1079 ee7e63784976162d350dda77fbc46772 "pdflatex"
-  "AlgebraDefs.out" 1735913636 914 6fb3737e433014d62cf4de4d26b3ef4b "pdflatex"
-  "AlgebraDefs.tex" 1735913635 5606 9172657c2b88d9eff13831a6e302e249 ""
+  "AlgebraDefs.aux" 1736143799 1213 3e678539a274ca4f56345988defc5b19 "pdflatex"
+  "AlgebraDefs.out" 1736143799 1157 d565032b40123eec29b2f5a6c26797c8 "pdflatex"
+  "AlgebraDefs.tex" 1736143798 5982 309edb9a2ef1e46625162ac6cc854bf1 ""
   (generated)
   "AlgebraDefs.aux"
   "AlgebraDefs.log"
