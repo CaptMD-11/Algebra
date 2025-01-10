@@ -111,4 +111,54 @@
     \end{enumerate}
 \end{section}
 
+\begin{section}{Section 3.1 - Integer Equivalence Classes \& Symmetries}
+    \begin{enumerate}
+        \item A \textbf{symmetry} of a geometric figure is a rearrangement of the figure preserving the arrangement of its sides and vertices as well as its distances and angles. 
+        \item A map from the plane to itself preserving the symmetry of an object is called a \textbf{rigid motion}. 
+        \item A \textbf{permutation} of a set $S$ is a bijective map $\pi: S \to S$. 
+    \end{enumerate}
+\end{section}
+
+\begin{section}{Section 3.2 - Definitions \& Examples}
+    \begin{enumerate}
+        \item A \textbf{binary operation} or \textbf{law of composition} on a set $G$ is a function $G \times G \to G$ that assigns to each pair $(a,b) \in G \times G$ a unique element $a \circ b$, or $ab \in G$, called the composition of $a$ and $b$. 
+        \item A \textbf{group} $(G, \circ)$ is a set $G$ together with a binary operation $(a,b) \mapsto a \circ b$ that satisfies the following axioms (where $a,b,c \in G$): 
+        \begin{enumerate}
+            \item Associativity ($(a \circ b) \circ c = a \circ (b \circ c)$). 
+            \item Identity ($\exists e \in G$ such that $e \circ a = a \circ e = a$). 
+            \item Inverse ($\forall a \in G \exists a^{-1} \in G$ such that $a \circ a^{-1} = a^{-1} \circ a = e$). 
+        \end{enumerate}
+        \item A group $G$ with the property that $a \circ b = b \circ a$ (for all $a,b \in G$) is called \textbf{abelian} or \textbf{commutative}. Groups not satisfying this property are said to be \textbf{nonabelian} or \textbf{noncommutative}. 
+        \item Let $U(n) := \mathbb{Z}_n \setminus \{0\}$. Then, $U(n)$ is called the \textbf{group of units} of $\mathbb{Z}_n$. 
+        \item We have the following: 
+        \begin{enumerate}
+            \item $\mathbb{M}_2(\mathbb{R}) = \{\textrm{2x2 matrices of real entries}\}$. 
+            \item $GL_2(\mathbb{R}) = \{\textrm{2x2 invertible matrices of real entries}\}$ is the \textbf{general linear group}.
+            \item $GL_2(\mathbb{R}) \subsetneq \mathbb{M}_2(\mathbb{R})$. 
+        \end{enumerate}
+        \item Let $1 = \begin{pmatrix}
+            1 & 0 \\
+            0 & 1
+        \end{pmatrix}, I = \begin{pmatrix}
+            0 & 1 \\
+            -1 & 0
+        \end{pmatrix}, J = \begin{pmatrix}
+            0 & i \\
+            i & 0
+        \end{pmatrix}, K = \begin{pmatrix}
+            i & 0 \\
+            0 & -i
+        \end{pmatrix}.$ Then, the set $Q_8 = \{\pm 1, \pm I, \pm J, \pm K\}$ is called the \textbf{quaternion group}. 
+        \item A group $G$ is \textbf{finite} (or has \textbf{finite order}) if it contains a finite number of elements. Otherwise, the group is said to be \textbf{infinite} (or has \textbf{infinite order}). The \textbf{order} of a finite group is the number of elements that it contains. 
+    \end{enumerate}
+\end{section}
+
+\begin{section}{Section 3.3 - Subgroups}
+    \begin{enumerate}
+        \item Let $G$ be a group. $H$ is a \textbf{subgroup} of $G$ if $H$ is a subset of $G$ such that when the group operation of $G$ is restricted to $H$, then $H$ is a group on its own right. 
+        \item The subgroup $H = \{e\}$ of a group $G$ is called the \textbf{trivial group}. A subgroup that is a proper subset of $G$ is called a \textbf{proper subgroup}. 
+        \item $SL_2(\mathbb{R})$ is the \textbf{special linear group} and we have the following definitions: $SL_2(\mathbb{R}) = \{\textrm{2x2 matrices of real entries and determinant 1}\}$. 
+    \end{enumerate}
+\end{section}
+
 \end{document}
